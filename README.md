@@ -2,7 +2,7 @@
 
 This repository contains a python script that tracks prices for the top ten cryptocurrencies by market cap. Using crontab, a time-based scheduling program in your operating system, you will be able to schedule the program at precise moments.
 
-A big thank you to @asweigart, @github/asweigart for your fantastic book which taught me the fundamentals needed to build this program.
+A big thank you to @asweigart for your fantastic book which taught me the fundamentals needed to build this program.
 
 **SKILLS PRACTICED AND LEARNED BY BUILDING THIS PROGRAM INCLUDE:**
 * webscraping
@@ -14,8 +14,8 @@ A big thank you to @asweigart, @github/asweigart for your fantastic book which t
 
 **REGARDING THE ACCOMPANYING FILES**
 
-* requirements.txt            --> Contains the three libraries you will need to install in order to run the python program /n
-* crontab.txt                 --> A short overview of working with crontab from your terminal /n
+* requirements.txt            --> Contains the three libraries you will need to install in order to run the python program 
+* crontab.txt                 --> A short overview of working with crontab from your terminal 
 * running_python_programs.txt --> Instructions on making your program executable (TO BE DONE BEFORE SCHEDULING IT WITH CRONTAB)
 
 
