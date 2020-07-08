@@ -1,0 +1,26 @@
+┌───────────── minute (0 - 59)
+│ ┌───────────── hour (0 - 23)
+│ │ ┌───────────── day of month (1 - 31)
+│ │ │ ┌───────────── month (1 - 12)
+│ │ │ │ ┌───────────── day of week (0 - 6) (Sunday to Saturday;
+│ │ │ │ │                                       7 is also Sunday on some systems)
+│ │ │ │ │
+│ │ │ │ │
+* * * * *  command to execute
+
+
+8 10 * * *
+
+
+SPECIAL CHARACTERS
+*	Asterisk	Every (all)
+/	Slash	Step size (every)
+,	Comma	And (list)
+–	Hyphen/Minus	To (range)
+
+
+------ USING CRONTAB ------
+crontab -l    SEE YOUR ACTIVE CRON JOBS
+crontab -e    EDIT CRONTAB
+i             INSERT/EDIT MODE
+ESC :wq       SAVE AND EXIT
