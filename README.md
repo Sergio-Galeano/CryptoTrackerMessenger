@@ -12,8 +12,8 @@ Skills practiced and learned by running this program include:
 
 --------- REGARDING THE ACCOMPANYING FILES -----------
 
-requirements.txt            --> Contains the three libraries you will need to install in order to run the python program 
-crontab.txt                 --> A short overview of working with crontab from your terminal
+requirements.txt            --> Contains the three libraries you will need to install in order to run the python program /n
+crontab.txt                 --> A short overview of working with crontab from your terminal /n
 running_python_programs.txt --> Instructions on making your program executable (TO BE DONE BEFORE SCHEDULING IT WITH CRONTAB)
 
 
