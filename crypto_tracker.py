@@ -1,7 +1,6 @@
 #! python3
 # crypto.py
-# Scrapes current price of top ten cryptocurrencies by market cap and texts
-# it to my phone
+
 
 import requests
 import bs4
@@ -69,11 +68,11 @@ price_cardano = cardano.select('div span')[12].getText()
 
 # Send price as a text message
 from twilio.rest import Client
-accountSID = 'AC5f8292921599291c4868bb6880d92ddb'
-authToken = 'c1355ceb839db4983e936520e5f5bc92'
+accountSID ='################################'
+authToken = '################################'
 twilioCli = Client(accountSID, authToken)
-twilio_number = '+12018907713'
-cell = '+16464912169'
+twilio_number = '+###########'
+cell = '+###########'
 
 message = twilioCli.messages.create(body=f'\nPrice Snapshot \
                                     \nBitcoin: ${price_bitcoin} \
