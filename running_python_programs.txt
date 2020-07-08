@@ -1,5 +1,5 @@
 NOTE: The following text is from Appendix B of "AUTOMATE THE BORING STUFF WITH PYTHON"
-BY AL SWEIGART. HIGHLY RECOMMENDED
+BY AL SWEIGART.
 
 I HIGHLY RECOMMEND this book, if not for the first part that covers PYTHON
 basics and structure, then at least for the second half that covers great
@@ -7,7 +7,8 @@ useful applications of Python in everyday life.
 
 While the book is not free, appendix B of the book is available online for free,
 allowing me to share it with you without discrediting or inappropriately sharing
-Al Sweigart's awesome material.
+Al Sweigart's fantastic material.
+
 To read the appendix online, visit:
 https://automatetheboringstuff.com/2e/appendixb/
 
