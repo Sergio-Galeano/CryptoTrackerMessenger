@@ -6,7 +6,7 @@ This repository contains a python script that tracks prices for the top ten cryp
 * webscraping
 * working with a website's sourcecode (HTML and CSS)
 * working with Twilio, an SMS gateway service that allows you to send text messages from your programs via the internet
-  * note: Twilio is free and comes with an abundant quantity of free text messages to use before having to consider paying
+  * Twilio starts off new users with enough credit to send out many, many text messages before having to consider to pay 
 * Making your python program executable and scheduling it to send yourself a text message at a predetermined time(s) using crontab
 
 
