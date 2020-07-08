@@ -10,7 +10,7 @@ Skills practiced and learned by running this program include:
 * Making your python program executable and scheduling it to send yourself a text message at a predetermined time(s) using crontab
 
 
-** REGARDING THE ACCOMPANYING FILES **
+**REGARDING THE ACCOMPANYING FILES
 
 *requirements.txt            --> Contains the three libraries you will need to install in order to run the python program /n
 *crontab.txt                 --> A short overview of working with crontab from your terminal /n
@@ -18,7 +18,7 @@ Skills practiced and learned by running this program include:
 
 
 
-** FINAL NOTE **
+**FINAL NOTE
 
 As with the majority of webscraping programs that grab data from websites, they will inevitably need to be updated over time, 
 as companies and data providers change their website layout over time.
