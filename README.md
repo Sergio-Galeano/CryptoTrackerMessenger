@@ -19,6 +19,7 @@ running_python_programs.txt --> Instructions on making your program executable (
 
 
 --------- FINAL NOTE -----------
+
 As with the majority of webscraping programs that grab data from websites, they will inevitably need to be updated over time, 
 as companies and data providers change their website layout over time.
 
