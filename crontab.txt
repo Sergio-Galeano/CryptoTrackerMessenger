@@ -1,4 +1,4 @@
------- USING CRONTAB ------
+------- USING CRONTAB -------
 crontab -e    EDIT CRONTAB
 i             INSERT/EDIT MODE
 ESC :wq       SAVE AND EXIT
