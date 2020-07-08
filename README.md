@@ -2,11 +2,11 @@
 
 This repository contains a python script that tracks prices for the top ten cryptocurrencies by market cap. Using crontab, a time-based scheduling program in your operating system, you will be able to schedule the program at precise moments.
 
-Skills practiced and learned by running this program include:
+**SKILLS PRACTICED AND LEARNED BY BUILDING THIS PROGRAM INCLUDE:**
 * webscraping
 * working with a website's sourcecode (HTML and CSS)
 * working with Twilio, an SMS gateway service that allows you to send text messages from your programs via the internet
-        * note: Twilio is free and comes with an abundant quantity of free text messages to use before having to consider paying
+  * note: Twilio is free and comes with an abundant quantity of free text messages to use before having to consider paying
 * Making your python program executable and scheduling it to send yourself a text message at a predetermined time(s) using crontab
 
 
