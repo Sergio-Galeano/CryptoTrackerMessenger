@@ -67,6 +67,8 @@ cardano = bs4.BeautifulSoup(res.text,'html.parser')
 price_cardano = cardano.select('div span')[12].getText()
 
 # Send price as a text message
+# You will need to insert your accountSID and authToken from your Twilio account,
+# in addition to your provided twilio number and personal cell phone number
 from twilio.rest import Client
 accountSID ='################################'
 authToken = '################################'
@@ -84,6 +86,5 @@ message = twilioCli.messages.create(body=f'\nPrice Snapshot \
                                     \nLitecoin: ${price_litecoin}\
                                     \nBinance Coin: ${price_binance}\
                                     \nEOS: ${price_eos}\
-                                    the file I want to run\
                                     \nCardano: ${price_cardano}',
                                     from_=twilio_number, to=cell)
