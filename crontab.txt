@@ -1,3 +1,9 @@
+------ USING CRONTAB ------
+crontab -e    EDIT CRONTAB
+i             INSERT/EDIT MODE
+ESC :wq       SAVE AND EXIT
+crontab -l    SEE YOUR ACTIVE CRON JOBS
+
 ┌───────────── minute (0 - 59)
 │ ┌───────────── hour (0 - 23)
 │ │ ┌───────────── day of month (1 - 31)
@@ -9,18 +15,8 @@
 * * * * *  command to execute
 
 
-8 10 * * *
-
-
 SPECIAL CHARACTERS
 *	Asterisk	Every (all)
 /	Slash	Step size (every)
 ,	Comma	And (list)
 –	Hyphen/Minus	To (range)
-
-
------- USING CRONTAB ------
-crontab -l    SEE YOUR ACTIVE CRON JOBS
-crontab -e    EDIT CRONTAB
-i             INSERT/EDIT MODE
-ESC :wq       SAVE AND EXIT
